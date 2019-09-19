@@ -206,7 +206,8 @@ class LineBotController extends Controller
         } else {
             $userMapping = $userMapping->first();
         }
-        return $userMapping;
+        //return $userMapping;
+        return false;
     }
 
     /**
